@@ -117,34 +117,32 @@ const Header = () => {
     }, "-=1.5")
 
   }, []);
-  
-  return (
-    <section className="header-container" id="header" data-scroll-container>
-      <Carousel>
-      <Carousel.Item interval={6500}>
-        <img
-          className="d-block w-100 carousel-image"
-          src="pexels-rafael-guajardo-194140-604684.jpg"
-          alt="First slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item interval={4000}>
-        <img
-          className="d-block w-100 carousel-image"
-          src="pexels-korwongss-6949326.jpg"
-          alt="Second slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item interval={4000}>
-        <img
-          className="d-block w-100 carousel-image"
-          src="pexels-marek-piwnicki-3907296-7920318.jpg"
-          alt="Third slide"
-        />
-      </Carousel.Item>
-    </Carousel>
 
-      
+  return (
+    <section className="header-container relative" id="header" data-scroll-container>
+      <Carousel>
+        <Carousel.Item interval={6500}>
+          <img
+            className="d-block w-100 carousel-image"
+            src="pexels-rafael-guajardo-194140-604684.jpg"
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item interval={4000}>
+          <img
+            className="d-block w-100 carousel-image"
+            src="pexels-korwongss-6949326.jpg"
+            alt="Second slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item interval={4000}>
+          <img
+            className="d-block w-100 carousel-image"
+            src="pexels-marek-piwnicki-3907296-7920318.jpg"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+      </Carousel>
       <div className="backblur">
         <div className="header-panel">
           <div className="partners">
